@@ -2,7 +2,7 @@
 
 ### Background information
 1. [Evaluation procedure](em-eval-procedure/procedure.md)
-1. [Evaluation metrics](em-eval-metrics)
+1. [Evaluation metrics](em-eval-metrics/metrics.md)
 
 ### Data characteristics
 This dataset contains data from 3 artificial timelines. The timelines cover 15 separate modes, including recently popular
