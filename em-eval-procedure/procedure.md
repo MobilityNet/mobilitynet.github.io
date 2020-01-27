@@ -264,8 +264,8 @@ and highlight the unexpected behavior that they would miss. This list is not
 comprehensive but provides a flavor of the arguments without tedious
 repetition.
 
-|:-:| |![image](figs/double_duty_cycling_android_1.png)|
-|![image](figs/spiky_range_high_accuracy_AO.png)|
+![image](figs/double_duty_cycling_android_1.png)
+![image](figs/spiky_range_high_accuracy_AO.png)
 
 ## No artificial trips
 
@@ -299,8 +299,7 @@ control, it is unclear which one has the error (Figure
 
 iOS | android  
 ---|---  
-![image](figs/ios_battery_settings_display.png) |
-![](figs/android_battery_settings_display.png)  
+![iOS battery](figs/ios_battery_settings_display.png) | ![android battery](figs/android_battery_settings_display.png)  
   
 ## No control
 
@@ -412,8 +411,7 @@ as best practices for future data collectors.
 
 Control configuration | Trip selection | Map leg details  
 ---|---|---  
-![image](figs/accuracy_control_configuration.png) |
-![image](figs/trip_selection.png) | ![image](figs/map_leg_details.png)  
+![image](figs/accuracy_control_configuration.png) | ![image](figs/trip_selection.png) | ![image](figs/map_leg_details.png)  
   
 ## System overview
 
