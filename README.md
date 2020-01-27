@@ -12,8 +12,9 @@ modes such as e-scooter and e-bike. We had two main goals for the data collectio
   <dt>Dwell time</dt>
   <dd>Instead of focusing only on trips, we wanted to evaluate a timeline that included significant dwell time. We could see from our calibration runs that android appears to have built-in duty cycling. Including significant dwell time would allow us to capture the impact of this context sensitive behavior. Therefore, we structured our timeline trips as round trips to libraries with an intermediate dwell time ~ 3x the mean travel time to the location.</dd>
   <dt>Broad range of modes</dt>
-  <dd>Since we are creating artificial trips, we can structure them to maximize mode variety. In order to efficiently cover this space, we tried to ensure that no mode was repeated. We only had to include commuter rail twice since there were few other transit options to reach the starting point chosen.
-  <dt>Multi-modal transfers</dt> Detecting multi-modal transfers is tricky because there isn't a clear signal similar to a trip end. We ensure that there are many transition examples by emphasizing multi-modal transfers while constructing our artificial trips.</dd>
+  <dd>Since we are creating artificial trips, we can structure them to maximize mode variety. In order to efficiently cover this space, we tried to ensure that no mode was repeated. We only had to include commuter rail twice since there were few other transit options to reach the starting point chosen.</dd>
+  <dt>Multi-modal transfers</dt>
+  <dd>Detecting multi-modal transfers is tricky because there isn't a clear signal similar to a trip end. We ensure that there are many transition examples by emphasizing multi-modal transfers while constructing our artificial trips.</dd>
 </dl>
 
 A brief summary of the timelines is as below. The details are in the dataset ([summary](https://github.com/e-mission/e-mission-eval-public-data/tree/master/spec_creation/final_sfbayarea) and [filled](https://github.com/e-mission/e-mission-eval-public-data/tree/master/spec_creation/final_sfbayarea_filled)).
