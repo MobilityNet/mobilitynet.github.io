@@ -30,9 +30,9 @@ We currently have the following data from these timelines.
 | id | accuracy control | HAHFDC | HAMFDC | MAHFDC | MAMFDC | total runs | travel hrs | travel hrs for android + iOS | total hrs | total hrs for android + iOS | 
 |---|------------------|--------|--------|--------|--------|------------|-----------|------------|----------|---------|
 | `unimodal_trip_car_bike_mtv_la` | 6 | 6 | 3 | 3 | 0      | 18         | ~ 12      | ~ 24       | 36  | 72  |
-| `car_scooter_brex_san_jose`     | 6 | 6 | 3 | 3 | 0      | 18         | 36        | 64         | 108 | 216 |
-| `train_bus_ebike_mtv_ucb`       | 11| 6 | 6 | 5 | 5      | 33         | 72        | 144        | 396 | 792 |
-| Total                           |   |   |   |   |        |            |           | 232        |     | **1080** |
+| `car_scooter_brex_san_jose`     | 7 | 6 | 3 | 4 | 1      | 21         | 63        | 126        | 126 | 252 |
+| `train_bus_ebike_mtv_ucb`       | 12| 6 | 6 | 6 | 6      | 36         | 216       | 432        | 432 | 864 |
+| Total                           |   |   |   |   |        |            |           | 582        |     | **1188** |
 
 * I think that the travel time is ~ 10 mins there by car and ~ 30 mins back by bike, so a dwell time of 1 hour there. But we also wait for 30 mins after coming back to ensure that the trip end is detected. Should verify against the actual data.
 
