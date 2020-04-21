@@ -1,5 +1,7 @@
 ## Public dataset for multi-modal mobility
 
+:raised_hand: Read the [quickstart](quickstart/quickstart.md) first. It has examples that can give you a quick overview. 
+
 ### Background information
 1. [Evaluation procedure](em-eval-procedure/procedure.md)
 1. [Evaluation metrics](em-eval-metrics/metrics.md)
