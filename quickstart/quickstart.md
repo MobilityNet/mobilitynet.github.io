@@ -16,8 +16,8 @@ You can generate visualizations for them by using the validation notebook
 https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/Validate_spec_before_upload.ipynb
 
 Since the raw data contains multiple data streams, we store it as JSON instead of csv by default. Each JSON object is tagged with a key that represents the stream that it is part of.
-The data models for the keys are at https://github.com/e-mission/e-mission-server
-Some of the keys - e.g. stats/server_api_time are not relevant to this analysis since they are used for instrumenting the performance of the system.
+The data models for the keys are at https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper
+Some of the keys - e.g. `stats/server_api_time` - are not relevant to this analysis since they are used for instrumenting the performance of the system.
 
 We have uploaded separate JSON files for android and iOS for the following sensing regimes:
 - the accuracy control ([android](samples/android_accuracy_control.json), [ios](samples/ios_accuracy_control.json)),
@@ -25,7 +25,7 @@ We have uploaded separate JSON files for android and iOS for the following sensi
 - the second experiment setting: duty cycled ([android, high accuracy, medium frequency](samples/android_hamfdc.json), [ios, medium accuracy, high frequency](samples/ios_mahfdc.json))
 - the power control, which has only battery data ([android](samples/android_power_control.json), [ios](samples/ios_power_control.json))
 
-All these are collected during the same evaluation, from 2019-07-23T08:46:22-07:00 to 2019-07-23T14:31:45-07:00.
+All these are collected during the same evaluation, from `2019-07-23T08:46:22-07:00` to `2019-07-23T14:31:45-07:00`.
 The iOS accuracy control has the ground truth temporal transitions (with key `manual/evaluation_transition`) included in the data.
 Since this is the raw data, it does not include inferred trips or sections.
 
