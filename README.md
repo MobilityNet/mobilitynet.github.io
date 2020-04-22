@@ -1,5 +1,7 @@
 ## Public dataset for multi-modal mobility
 
+[![Check Markdown links](https://github.com/MobilityNet/mobilitynet.github.io/workflows/Check%20Markdown%20links/badge.svg)](https://github.com/MobilityNet/mobilitynet.github.io/actions?query=workflow%3A%22Check+Markdown+links%22)
+
 👋 Read the [quickstart](quickstart/quickstart.md) first. It has examples that can give you a quick overview. 
 
 ### Background information
