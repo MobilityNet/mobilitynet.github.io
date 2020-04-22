@@ -83,7 +83,7 @@ that the trips look fine
 $ python upload_validated_spec.py <datastore_url> <evaluation_author_email> evaluation.spec.filled.json
 ```
 
-- `datastore_url`: if using the emevalzephyr channel, this is currently http://cardshark.cs.berkeley.edu:8888 This is likely to change after the primary author @shankari graduates.
+- `datastore_url`: if using the emevalzephyr channel, this is currently http://cardshark.cs.berkeley.edu This is likely to change after the primary author @shankari graduates.
 - `evaluation_author_email` is an arbitrary string. However, it is key to retrieving the related data so it would be good to make it memorable. The spec creator's public email address is probably a reasonable option for now.
 
 ## install the evaluation app(s) on the test phones and configure them ##
@@ -103,7 +103,7 @@ Note that as part of selecting the evaluation, the current phone is matched to i
 
 1. Select the same calibration regime on all the phones
 1. Check that the data is being collected properly by using the
-`Validate_calibration` https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/calibration_templates/Validate_calibration.ipynb notebook
+`Validate_calibration` ([in motion](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/calibration_templates/Validate_calibration_in_motion.ipynb) or [stationary](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/calibration_templates/Validate_calibration_stationary.ipynb)) notebook
 1. If some of the phones do not have any transitions sent to the server yet,
 use Profile -> Force Sync to force them to send the data and ensure that the
 connection to the server is stable
