@@ -55,10 +55,10 @@ copied over and edited as necessary. The various sections of the spe are:
 ## fill in the evaluation spec with queryable details and validate it ##
 
 The evaluation code is in the
-https://github.com/e-mission/e-mission-eval-public-data repository.
+https://github.com/MobilityNet/mobilitynet-analysis-scripts repository.
 
 ```
-$ git clone https://github.com/e-mission/e-mission-eval-public-data
+$ git clone https://github.com/MobilityNet/mobilitynet-analysis-scripts
 $ python setup.sh
 ```
 
@@ -103,7 +103,7 @@ Note that as part of selecting the evaluation, the current phone is matched to i
 
 1. Select the same calibration regime on all the phones
 1. Check that the data is being collected properly by using the
-`Validate_calibration` https://github.com/e-mission/e-mission-eval-public-data/blob/master/calibration_templates/Validate_calibration.ipynb notebook
+`Validate_calibration` https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/calibration_templates/Validate_calibration.ipynb notebook
 1. If some of the phones do not have any transitions sent to the server yet,
 use Profile -> Force Sync to force them to send the data and ensure that the
 connection to the server is stable
