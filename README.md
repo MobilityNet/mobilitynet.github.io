@@ -55,4 +55,4 @@ Fortunately, Harrison and gennui stepped in and helped out by lending an e-bike 
 
 Please cite the following work when using this dataset:
 
-**Shankari, K. and Fuerst, Jonathan and Fadel Argerich, Mauricio and Avramidis, Eleftherios and Zhang, Jesse. (2020). MobilityNet: Towards a Public Dataset for Multimodal Mobility Research. Climate Change AI 2020 @ ICLR20 (Spotlight Talk)**
+- Shankari, K. and Fuerst, Jonathan and Fadel Argerich, Mauricio and Avramidis, Eleftherios and Zhang, Jesse. (2020). MobilityNet: Towards a Public Dataset for Multimodal Mobility Research. *Climate Change AI 2020 @ ICLR20 (Spotlight Talk).*
