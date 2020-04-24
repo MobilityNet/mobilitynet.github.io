@@ -1,13 +1,16 @@
+## Quickstart
+
 In this description, we focus on the downtown library profile.
 - The profile summary is at https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/final_sfbayarea/car_scooter_brex_san_jose.json, and
 - The filled profile, with the expanded trajectories, is at https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/final_sfbayarea_filled/car_scooter_brex_san_jose.filled.json
 
-A visual representation of the return trip of this timeline shown below.
+A visual representation of the return trip of this timeline is shown below.
 The blue lines represent the ground truth trajectory, and the purple polygons represent transition areas where we can't determine the ground truth a priori and have to use the reference spatio-temporal trajectories instead.
 
 ![sj_to_mtn_view_multi_modal](figs/sj_to_mtn_view_multi_modal.png)
 
 The other timelines are in the same directory:
+
 - https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/final_sfbayarea
 and
 - https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/final_sfbayarea_filled
