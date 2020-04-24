@@ -43,6 +43,7 @@ control has the ground truth temporal transitions (with key
 `manual/evaluation_transition`) included in the data. Since this is the raw
 data, it does not include inferred trips or sections.
 
+
 ### Running the analysis scripts
 
 The rest of this data is stored on a public server, currently
@@ -52,8 +53,9 @@ https://github.com/MobilityNet/mobilitynet-analysis-scripts
 
 Here is how you can get started:
 
-The scripts are launchable via binder https://mybinder.org/ for easy browsing:  
+- The scripts are launchable via binder https://mybinder.org/ for easy browsing:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MobilityNet/mobilitynet-analysis-scripts.git/master)
+- You can also clone the mobilitynet-analysis-scripts repository and start with this [notebook](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/timeline_car_scooter_brex_san_jose.ipynb) to plot a timeseries
 
 All contributions are welcome! This includes both issues for clarifications and
 pull requests for improvements.
