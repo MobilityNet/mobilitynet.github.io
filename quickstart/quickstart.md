@@ -24,10 +24,6 @@ and have to use the reference spatio-temporal trajectories instead.
 
 The other timelines are in the same [directory](https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/).
 
-
-You can generate visualizations for them by using the [validation
-notebook.](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/Validate_spec_before_upload.ipynb)
-
 Since the raw data contains multiple data streams, we store it as JSON instead
 of csv by default. Each JSON object is tagged with a key that represents the
 stream that it is part of. The data models for the keys are
@@ -47,10 +43,14 @@ control has the ground truth temporal transitions (with key
 `manual/evaluation_transition`) included in the data. Since this is the raw
 data, it does not include inferred trips or sections.
 
+### Running the analysis scripts
+
 The rest of this data is stored on a public server, currently
 http://cardshark.cs.berkeley.edu. Scripts to download and pre-process the data,
 and to compute the metrics, are in the companion repository
 https://github.com/MobilityNet/mobilitynet-analysis-scripts
+
+Here is how you can get started:
 
 The scripts are launchable via binder https://mybinder.org/ for easy browsing:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MobilityNet/mobilitynet-analysis-scripts.git/master)
