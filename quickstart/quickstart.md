@@ -21,15 +21,14 @@ and have to use the reference spatio-temporal trajectories instead.
 
 ![sj_to_mtn_view_multi_modal](figs/sj_to_mtn_view_multi_modal.png)
 
-The other timelines are in the same [directory](-
-https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/).
+The other timelines are in the same [directory](https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/).
 
 
-**TODO: What are filled timelines? Are these filled artificially or with data that we collect?**
+**TODO: Explain how the profiles are filled. Are these filled artificially or with data that we collect?**
 
 
 You can generate visualizations for them by using the [validation
-notebook](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/Validate_spec_before_upload.ipynb)
+notebook.](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/spec_creation/Validate_spec_before_upload.ipynb)
 
 Since the raw data contains multiple data streams, we store it as JSON instead
 of csv by default. Each JSON object is tagged with a key that represents the
@@ -55,6 +54,8 @@ http://cardshark.cs.berkeley.edu. Scripts to download and pre-process the data,
 and to compute the metrics, are in the companion repository
 https://github.com/MobilityNet/mobilitynet-analysis-scripts
 
-The scripts are launchable via binder https://mybinder.org/ for easy browsing.
+The scripts are launchable via binder https://mybinder.org/ for easy browsing:  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MobilityNet/mobilitynet-analysis-scripts.git/master)
+
 All contributions are welcome! This includes both issues for clarifications and
 pull requests for improvements.
