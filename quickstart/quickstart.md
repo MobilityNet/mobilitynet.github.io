@@ -13,18 +13,16 @@ for the number of iOS and Android phones used together with their role in the
 data collection and sensing settings (e.g., high accuracy sensing vs. low
 accuracy sensing).
 
-
-A visual representation of the return trip of this timeline is shown below. The
-blue lines represent the ground truth trajectory, and the purple polygons
+After the specification of an artificial trip, users can define the exact route with the help of
+[OSRM](http://project-osrm.org/) to fill the missing location points automatically. 
+A visual representation of the return trip of the example timeline is shown below. The
+blue lines represent the ground truth trajectory (obtained through OSRM), and the purple polygons
 represent transition areas where we can't determine the ground truth a priori
 and have to use the reference spatio-temporal trajectories instead.
 
 ![sj_to_mtn_view_multi_modal](figs/sj_to_mtn_view_multi_modal.png)
 
 The other timelines are in the same [directory](https://github.com/MobilityNet/mobilitynet-analysis-scripts/tree/master/spec_creation/).
-
-
-**TODO: Explain how the profiles are filled. Are these filled artificially or with data that we collect?**
 
 
 You can generate visualizations for them by using the [validation
