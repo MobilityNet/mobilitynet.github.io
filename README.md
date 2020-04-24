@@ -57,7 +57,7 @@ Please cite the following work when using this dataset:
 
 ```
 @article{2020mobilitynet,
-  title={{MobilityNet: Towards a Public Dataset for Multimodal Mobility Research}},
+  title={MobilityNet: Towards a Public Dataset for Multimodal Mobility Research},
   author={Shankari, K. and Fuerst, Jonathan and Fadel Argerich, Mauricio and Avramidis, Eleftherios and Zhang, Jesse},
   journal={Climate Change AI 2020, ICLR20},
   year={2020}
