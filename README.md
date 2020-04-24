@@ -52,3 +52,14 @@ This will be automatically handled in the spec.
 I would like to thank Harrison Liew and gennui raffill for their assistance in salvaging this data collection effort after the Lyft e-bike debacle. The third timeline includes a one-way ride from the UC Berkeley campus to the Transbay bus stop on an e-bike. I used Lyft bikeshare e-bikes for the first round of data collection, but then a couple of e-bikes caught on fire, and Lyft pulled all e-bikes from service. I was now stuck since using a regular bike would preclude comparisons with the first round.
 
 Fortunately, Harrison and gennui stepped in and helped out by lending an e-bike and riding the bike back to campus to complete the round trip.  Neither rain nor heat nor lost phones or unexpected band practice stayed us from the slow collection of all four quadrants of the frequency/accuracy combinations. And Lyft had still not put e-bikes into service at this time, so this dataset would not have been possible without their help.
+
+Please cite the following work when using this dataset:
+
+```
+@article{2020mobilitynet,
+  title={{MobilityNet: Towards a Public Dataset for Multimodal Mobility Research}},
+  author={Shankari, K. and Fuerst, Jonathan and Fadel Argerich, Mauricio and Avramidis, Eleftherios and Zhang, Jesse},
+  journal={Climate Change AI 2020, ICLR20},
+  year={2020}
+}
+```
