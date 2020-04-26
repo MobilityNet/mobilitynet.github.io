@@ -55,7 +55,7 @@ Here is how you can get started:
 
 - The scripts are launchable via binder https://mybinder.org/ for easy browsing:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MobilityNet/mobilitynet-analysis-scripts.git/master)
-- You can also clone the mobilitynet-analysis-scripts repository and start with this [notebook](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/timeline_car_scooter_brex_san_jose.ipynb) to plot a timeseries
+- You can also clone the mobilitynet-analysis-scripts repository and start with this [notebook](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/Data_exploration_template.ipynb) to get a quick overview exploring some aspects of the data, or this [notebook](https://github.com/MobilityNet/mobilitynet-analysis-scripts/blob/master/timeline_car_scooter_brex_san_jose.ipynb) to plot a timeseries
 
 All contributions are welcome! This includes both issues for clarifications and
 pull requests for improvements.
