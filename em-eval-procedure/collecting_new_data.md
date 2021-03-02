@@ -9,7 +9,7 @@ More details in the em-eval paper, currently available via request.
 
 The high-level procedure to perform a new experiment with this method is as follows:
 - create an evaluation spec that outlines the basic parameters of the experiment
-- fill in the evaluation spec with queryable details and validate it
+- validate the spec until it meets your requirements
 - upload the spec to a public datastore to establish a record
 - install the evaluation app(s) on the test phones and configure them
 - calibrate the phones to ensure that battery drain is consistent
@@ -21,10 +21,6 @@ There are two main limitations with the current version of the procedure:
   stationary) is currently manual. See
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-119.html for more
 details
-- the evaluation trips are currently unimodal and support only CAR, WALKING and
-  BICYCLING. Attempts to experiment with autofilling public transit routes are
-  documented in `coordinate_autofill_experiments`. The easiest option is to pay
-  Google to use Google Maps, but I'm holding out for an open source option.
 
 ## Create an evaluation spec ##
 
@@ -46,9 +42,16 @@ copied over and edited as necessary. The various sections of the spe are:
   `sensing_regimes.all.specs.json`. If one of the comparisons is to a closed
   source implementation that is not configurable, then this can be a generic
   string, and the app needs to be manually installed on the phone.
-- `evaluation_trips`: the list of travel trips to be evaluated, along with a
-  small set of waypoints that uniquely defines each route. Other locations
-  along the route will be autofilled.
+- `evaluation_trips`: the list of travel trips to be evaluated, specified with
+  geojson polygons for the start and end points, and polylines for the trajectory.
+  Spec creation is actually fairly complex and may require multiple iterations to get right.
+  Note that multi-modal trips may have multiple "legs"
+  - The repo includes a notebook (`spec_creation/create_ground_truth_for_legs.ipynb`)
+  that outlines multiple options for creating evaluation trips or legs,
+  and provides templates on how to visualize them, tweak them, and then combine them into the final spec.
+  - It also includes a notebook (`spec_creation/Validate_spec_before_upload.ipynb`) which validates
+  the entire spec before the upload.
+  - Additional validations or suggestions for reducing the spec creation burden welcome as PRs
 - `setup_notes`: details of how the evaluation phones were set up, and any
   differences or other things to note.
 
